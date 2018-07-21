@@ -1,7 +1,13 @@
 # BYOD
 Computer Setup: Program Information and Settings
 
-Continue this DOC
+## Windows Installation
+
+### Driver Information and Installation
+Important URLs used to Research Information
+- https://www.pcilookup.com
+  - 
+  
 
 # Previous Versions Notes Note Deleted Yet
 ### GitHub Classroom
