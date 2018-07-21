@@ -8,7 +8,11 @@ Computer Setup: Program Information and Settings
 2. Create USB Installation Key
 . Install WINDOWS
 . Update Drives (Especially All Internet Connection Drivers)
+. Windows Update (repeat as necessary)
+. Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
 . Ensure all BIOS Settings Correct
+
+Reminder: machine may need multiple restarts
 
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
 
@@ -25,6 +29,9 @@ CAUTION: Complete the Installation, then update the machine, then register WINDO
 - Open Key / Double Click Setup
 
 ### Driver Information and Installation
+NOTE: Internet Connection Drivers are crucial and must be installed separately
+- Windows Update is safest (and easiest) way to update and install additional drivers
+
 Important URLs used to Research Information
 - https://www.pcilookup.com
   - Details to Use: VEN is vendor, DEV is Developer
