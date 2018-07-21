@@ -29,6 +29,8 @@ Reminder: machine may need multiple restarts
 
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
 
+---
+
 ## Additional Details
 
 ### Creating USB Installation Key
