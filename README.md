@@ -31,6 +31,13 @@ CAUTION: Complete the Installation, then update the machine, then register WINDO
 ### Driver Information and Installation
 NOTE: Internet Connection Drivers are crucial and must be installed separately
 - Windows Update is safest (and easiest) way to update and install additional drivers
+Finding information about Drivers
+- Use Windows Device Manager (Windows 7: Control Panel / Hardware and Sound / Devices and Printers)
+- Device Manager / Properties for Component / Details / Hardware IDs
+- Alternative
+  - RightClick on ICON with !
+  - See Troubleshoot, Google Full Driver Name
+-
 
 Important URLs used to Research Information
 - https://www.pcilookup.com
