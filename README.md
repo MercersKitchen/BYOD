@@ -1,6 +1,12 @@
 # BYOD
 Computer Setup: Program Information and Settings
 
+Power Reminders
+- If Adaptor is faulty, voltage is most important
+- Example HP 6560b Adaptor Numbers: 19V, 4.74A
+- Voltage must be exact
+- Current cannot be less
+
 ## Windows Installation
 
 ### Steps ... Additional Details Below
@@ -8,6 +14,7 @@ Computer Setup: Program Information and Settings
 2. Create USB Installation Key
 . Install WINDOWS
 . Update Drives (Especially All Internet Connection Drivers)
+  - Note: Display driver can be an issues; also manually install additional issues as needed
 . Windows Update (repeat as necessary)
 . Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
 . Ensure all BIOS Settings Correct
@@ -53,6 +60,7 @@ Important URLs used to Research Information
 
 ### BIOS Settings
 - Enable VT-X, Virtual Technology, in BIOS
+
 
 # Previous Versions Notes Note Deleted Yet
 ### GitHub Classroom
