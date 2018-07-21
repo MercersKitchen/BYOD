@@ -5,6 +5,6 @@ Continue this DOC
 
 # Previous Versions Notes Note Deleted Yet
 ### GitHub Classroom
-- Must install Atom First (or Notepad++, etc.)
-- Install Git (enable Atom or WYSIWYG choice)
+- Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
+- Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
 - Install Github Desktop
