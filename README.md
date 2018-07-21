@@ -6,7 +6,7 @@ Computer Setup: Program Information and Settings
 ### Driver Information and Installation
 Important URLs used to Research Information
 - https://www.pcilookup.com
-  - 
+  - Details to Use: 
   
 
 # Previous Versions Notes Note Deleted Yet
