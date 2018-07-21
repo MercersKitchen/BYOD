@@ -2,12 +2,15 @@
 Computer Setup: Program Information and Settings
 
 Power Reminders
-- If Adaptor is faulty, voltage is most important
-- Example HP 6560b Adaptor Numbers: 19V, 4.74A
-- Voltage must be exact
-- Current cannot be less
-
-## Windows Installation
+1. Power Adaptor
+   - If Adaptor is faulty, voltage is most important
+   - Example HP 6560b Adaptor Numbers: 19V, 4.74A
+   - Voltage must be exact
+   - Current cannot be less
+2. Power settings (High Power for Installations and Updating Only)
+   - Change to High Power (Hard Drive Never sleeps, turn monitor off in 1 minute)
+   - Lid Button "Does Nothing" (able to close lid if needed)
+   - Remember to change Power setting Back to Balanced Power
 
 ### Steps ... Additional Details Below
 1. Download ISO Files from Microsoft
@@ -16,12 +19,17 @@ Power Reminders
 . Update Drives (Especially All Internet Connection Drivers)
   - Note: Display driver can be an issues; also manually install additional issues as needed
 . Windows Update (repeat as necessary)
+  - Common Error: time settings
 . Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
 . Ensure all BIOS Settings Correct
-
+. WINDOWS Defender: change settings in Options, Update and Scan
+. Deal with all messages (firewall, security, backup, etc.)
+.
 Reminder: machine may need multiple restarts
 
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
+
+## Additional Details
 
 ### Creating USB Installation Key
 - Research these URLs
@@ -31,9 +39,13 @@ CAUTION: Complete the Installation, then update the machine, then register WINDO
 - Use Rufus as option to create Bootable USB for Windows Installation
   - Use USB Rufus Key
 
+---
+
 ### Using the Rufus USB Key
 - Start WINDOWS as normal on the Machine
 - Open Key / Double Click Setup
+
+---
 
 ### Driver Information and Installation
 NOTE: Internet Connection Drivers are crucial and must be installed separately
@@ -58,9 +70,32 @@ Important URLs used to Research Information
   - Copy Driver to "Downloads Folder" of machine
   - Double Click to install (may need restart)
 
-### BIOS Settings
-- Enable VT-X, Virtual Technology, in BIOS
+---
 
+### BIOS Settings
+- Check Memory and System with Tools
+- Change Clock Settings, if necessary
+- If Hard Drive can only be used in this one machine, enable Automatic Drive Lock function that uses BIOS password
+  - Otherwise do not enable any drive locks
+- Boot Options: not SD or Floppy (some "camera" .exe viruses and no floppies are used)
+- Enable VT-X, Virtual Technology, in BIOS
+- Administrator Settings?
+- Enable audio alerts during boot
+- Enable NumPad
+- SATA Should be AHCI (IDE is for Windows XP and older)
+- SATA Speed should be 6.0
+
+- Change Region and Language
+- Computer Name in System Properties
+- Change Device Installation Settings for Drivers, to recommended
+
+---
+
+### Clock settings
+- Ensure Clock Setting is correct
+- Troubleshoot: synchronize Internet Clock to System Tray Clock
+
+---
 
 # Previous Versions Notes Note Deleted Yet
 ### GitHub Classroom
