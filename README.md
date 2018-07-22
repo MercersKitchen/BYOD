@@ -252,15 +252,15 @@ Installing and Personalizing Atom (Optional Settings and Additions)
   - For further ideas see: https://help.github.com/articles/authorizing-oauth-apps/
 
 Suggestions for packages
+- Already installed is Built In Plug-In for Spelling
+  - adds suggestions for variables found in coding, nice feature
 -
 
 Additional Packages and themes for Atom: https://atom.io/packages
 
-###
+### 7 Zip: 7z1805-x64.exe, www.7-zip.com, 20180614
 
-
-### 7 Zip:
-- www.7-zip.com
+### GitHub Desktop: GitHubDesktopSetup.exe, 20180614
 
 ---
 
