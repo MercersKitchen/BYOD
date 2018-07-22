@@ -121,7 +121,21 @@ net start wuauserv
 
 ---
 
-# Previous Versions Notes Note Deleted Yet
+# Previous Versions Notes Not Deleted Yet
+
+### TCPIP Stack Reset, Windows 7
+```
+Click Start / CMD Run as Administrator
+ipconfig /flushdna
+nbtstat -R
+nbtstat -RR
+netsh int reset all
+netsh int ip reset
+netsh winsock reset
+```
+
+---
+
 ### GitHub Classroom
 - Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
 - Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
