@@ -12,6 +12,18 @@ Power Reminders
    - Lid Button "Does Nothing" (able to close lid if needed)
    - Remember to change Power setting Back to Balanced Power
 
+Download Installation and Executable File Checksums Reminders
+
+For MD5: see Install+WinMD5.pdf
+- Use Program, WinMD5.exe, notes below
+- Use Windows CMD Commands, notes below
+- Use Linux Command, notes below
+
+For sha-256: notes below with MD5 Program
+
+For Passwords or Accounts: use LastPass Program or Chrome Extension;
+Also try KeePass
+
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
@@ -135,11 +147,24 @@ net start wuauserv
 # Program List
 Notes for BYOD Student Machines and Computers that act like BYOD
 
+Use these downloads to create a USB Key or a Folder of Executables and notes
+
 **NOTE** : Create links in Start Menu and leave Desktop Clean
+
+**CAUTION**: Never update programs without a plan
+- Programs must work well together, make notes about what you download and when
+- A new program or updated file might cause errors
+
+---
+
+## Paid Programs
+
+### Snag It from TechSmith
 
 ---
 
 ## For Computers using SchoolZone (all) or PowerTeacher
+
 ### Ensure JDK matches PowerTeacher Java Version
 - Currently 8u121, 20180613
 - See PowerTeacher (PowerSchool / Progress Module / Click Here to install)
@@ -148,7 +173,7 @@ Notes for BYOD Student Machines and Computers that act like BYOD
 
 ---
 
-## For computers not using EPSB Imaging services OR Install Instructions for specific programs
+## Install Instructions for specific programs *or* computers not using EPSB Imaging services
 
 ### Chrome: ChromeSetup.exe, 20180613
 - Install Flash, set to ask (esp. for Cisco Academy)
@@ -163,12 +188,96 @@ Notes for BYOD Student Machines and Computers that act like BYOD
 - Add Cisco Packet Tracer 7.1 FAQs.pdf
   - Add to My Documents / Cisco
 
-###
+###Video Player: vlc-3.0.3-win64.exe, 20180613
+- Using VLC: https://lifehacker.com/the-best-hidden-features-of-vlc-1654434241
+
+### PuTTY: putty-64bit-0.70-installer.msi, 20180623
+
+### PuttyGen: puttygen.exe, 20180623
+
+### TightVNC: tightvnc-2.8.11-gpl-setup-32bit.msi, 20180623
+- https://www.tightvnc.com/download.php
+- CAUTION: install Viewer and Server in specific applications
+- Will Cause Security Issue
+
+### Virtual Machine: VMware-player-12.5.9-7535481.exe, 20180623
+- www.vmware.com
+
+### Wire Shark: Wireshark-win64-2.6.1.exe, 20180614
+- https://www.wireshark.org/#download
+- Install USB Package
+- Other packages are available, install these if you want to test them
+
+### MD5 Checksum File Integrity
+- Program: WinMD5.exe, 20180614
+  - No Installation program, is executable
+  - See Readme.txt and License for instructions
+  - Drag and Drop usage
+  - http://winmd5.com/
+- WINDOWS CMD MD5 Checking
+  ```
+  certutil -hashfile FILENAME  MD5
+  ```
+- Linux MD5 Checking
+  ```
+  md5sum FILENAME
+  ```
+- sha-256 Windows: certutil -hashfile FILENAME  sha256
+- sha-256 Linux: sha256sum FILENAME
+
+### SD Card Programs, 20180614
+- See Raspberry Pi Website for updated programs, new programs, etc.
+- SD_CardFormatter0500SetupEN.exe
+  - https://www.sdcard.org/downloads/formatter_4/
+- win32diskimager-1.0.0-install.exe
+  - https://sourceforge.net/projects/win32diskimager/files/latest/download
+- Recuva: rcsetup153.exe
+  - https://www.ccleaner.com/recuva
+- Additional SD Recovery, not tested yet: DiskDigger, Version 1.18.17.2417, https://diskdigger.org/
+
+### WYSIWYG (What You See is What You Get) Text Editors
+- Test these with Hello World Program in Chrome, see index.html
+- Atom: AtomSetup-x64.exe, Version 1.27.2, 20180614
+
+Installing and Personalizing Atom (Optional Settings and Additions)
+
+
+
+
+
+
+### 7 Zip:
+- www.7-zip.com
 
 ---
 
+### Other Browsers for Testing CSS files
+
+See Last Pass for up dated List
+https://lastpass.com/misc_download2.php
+
+Chrome: see above
+Firefox: Firefox Installer.exe, https://www.mozilla.org/en-US/firefox/new/, 20140613
+Opera: OperaSetup.exe, https://www.opera.com/, 20180613
+  - Might be unsupported after 201808
+Unknown: mx5.2.3.2000.exe, 20180614
+Internet Explorer: installed with Windows
+
 ---
 
+Additional Program Website List
+- www.ubuntu.com
+- www.canonical.com: for Ubuntu software updates
+- SlackSetup.exe for messaging and Social Networking
+
+Search Engines: Google's V8, Bing (for research and to find updates)
+
+---
+
+## Installation Instructions for a WAMP Server
+See Folder and Notes from Installation
+
+---
 # Previous Versions Notes Not Deleted Yet
 
 ### TCPIP Stack Reset, Windows 7
