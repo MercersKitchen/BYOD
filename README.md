@@ -12,7 +12,7 @@ Power Reminders
    - Lid Button "Does Nothing" (able to close lid if needed)
    - Remember to change Power setting Back to Balanced Power
 
-### Steps ... Additional Details Below
+### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
 . Install WINDOWS
@@ -21,11 +21,13 @@ Power Reminders
 . Windows Update (repeat as necessary)
   - Common Error: time settings
   - May need to delete Update Contents, see note below
-. Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
 . Ensure all BIOS Settings Correct
 . WINDOWS Defender: change settings in Options, Update and Scan
 . Deal with all messages (firewall, security, backup, etc.)
+. Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
+  - See Program List .txt
 .
+
 Reminder: machine may need multiple restarts
 
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
@@ -86,6 +88,7 @@ Important URLs used to Research Information
 - Administrator Settings?
 - Enable audio alerts during boot
 - Enable NumPad
+- Turn off Volume for machine, if possible
 - SATA Should be AHCI (IDE is for Windows XP and older)
 - SATA Speed should be 6.0
 
@@ -118,6 +121,10 @@ net start buts
 net start wuauserv
 ```
 - ReRun Windows Update
+
+---
+
+## Program List
 
 ---
 
