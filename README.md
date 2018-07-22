@@ -28,6 +28,7 @@ Power Reminders
 Reminder: machine may need multiple restarts
 
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
+- OPTION: register windows by phone, see folder for more details
 
 ---
 
