@@ -237,13 +237,26 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 
 ### WYSIWYG (What You See is What You Get) Text Editors
 - Test these with Hello World Program in Chrome, see index.html
+- Notepad++: npp.7.5.6.Installer.x64.exe, https://notepad-plus-plus.org/ ,20180614
 - Atom: AtomSetup-x64.exe, Version 1.27.2, 20180614
 
 Installing and Personalizing Atom (Optional Settings and Additions)
+- Why Atom: open multiple projects in one window
+- See the Flight Manual: http://flight-manual.atom.io/
+  - Set-up Section is good, use this with Video 1 below
+  - Note: Tree View has parent, child, and sub notes
+- Video #1: https://www.youtube.com/watch?v=U5POoGSrtGg
+  - See the Rest of this Channel to get some ideas for using Atom
+- Note about Signing in to GitHub through Atom
+  - Must review permissions on a regular basis
+  - For further ideas see: https://help.github.com/articles/authorizing-oauth-apps/
 
+Suggestions for packages
+-
 
+Additional Packages and themes for Atom: https://atom.io/packages
 
-
+###
 
 
 ### 7 Zip:
