@@ -20,6 +20,7 @@ Power Reminders
   - Note: Display driver can be an issues; also manually install additional issues as needed
 . Windows Update (repeat as necessary)
   - Common Error: time settings
+  - May need to delete Update Contents, see note below
 . Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
 . Ensure all BIOS Settings Correct
 . WINDOWS Defender: change settings in Options, Update and Scan
@@ -95,8 +96,28 @@ Important URLs used to Research Information
 ---
 
 ### Clock settings
+- Control Panel / Date and Time / Internet Clock / Update Now
 - Ensure Clock Setting is correct
 - Troubleshoot: synchronize Internet Clock to System Tray Clock
+
+---
+
+### Deleting Windows Update Contents
+- "Stop the Services first, then delete, then restart services"
+- GUI Version: C Drive / Windows / Softwaredistribution
+  - Use this to visually verify CMD Commands Successful
+- CMD Version: stop the Windows Update Services
+```
+net stop bits
+net stop wuauserv
+```
+- In GUI, actually delete the contents of the folder
+- CMD: restart Windows update services
+```
+net start buts
+net start wuauserv
+```
+- ReRun Windows Update
 
 ---
 
