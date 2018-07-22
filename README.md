@@ -22,8 +22,7 @@ Power Reminders
   - Common Error: time settings
   - May need to delete Update Contents, see note below
 . Ensure all BIOS Settings Correct
-. WINDOWS Defender: change settings in Options, Update and Scan
-. Deal with all messages (firewall, security, backup, etc.)
+. Windows Settings and Tasks
 . Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
   - See Program List .txt
 .
@@ -124,7 +123,49 @@ net start wuauserv
 
 ---
 
-## Program List
+### Windows Settings and Tasks, additional items
+- WINDOWS Defender: change settings in Options, Update and Scan
+- Deal with all messages (firewall, security, backup, etc.)
+- Folder Options
+  - Enable Extensions (i.e .exe, for RansomWare Security)
+  - ClickOff "Hide all Hidden Folders" (Want to see these)
+
+---
+
+# Program List
+Notes for BYOD Student Machines and Computers that act like BYOD
+
+**NOTE** : Create links in Start Menu and leave Desktop Clean
+
+---
+
+## For Computers using SchoolZone (all) or PowerTeacher
+### Ensure JDK matches PowerTeacher Java Version
+- Currently 8u121, 20180613
+- See PowerTeacher (PowerSchool / Progress Module / Click Here to install)
+- Ensure Environmental Variable (Pathway) is set properly
+  - CAUTION: no direct error message if typed with error
+
+---
+
+## For computers not using EPSB Imaging services OR Install Instructions for specific programs
+
+### Chrome: ChromeSetup.exe, 20180613
+- Install Flash, set to ask (esp. for Cisco Academy)
+- Add LastPass Extension
+- Test by Surfing
+
+### Packet Tracer for Cisco Academy: Packet Tracer 7.1.1 for Windows 64 bit.exe, 20180613
+- NOTE: will work on Windows 10
+- Testing Packet Tracer: must login twice (first time for initial setup, second for testing)
+  - Use PKA 2.2.3.4
+  - Follow additional prompts
+- Add Cisco Packet Tracer 7.1 FAQs.pdf
+  - Add to My Documents / Cisco
+
+###
+
+---
 
 ---
 
