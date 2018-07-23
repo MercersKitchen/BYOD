@@ -310,3 +310,10 @@ netsh winsock reset
 - Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
 - Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
 - Install GitHub Desktop
+
+# Future Ideas to Include
+List of Ideas
+- Using Older machines and "lighter OS"
+- Ubuntu Installation (Connections to Cisco Academy Courses)
+- RPI setup and Rasbian Installation (including WiFi Configuration)
+- Completing a Dual Boot
