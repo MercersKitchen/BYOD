@@ -266,7 +266,7 @@ Internet Explorer: installed with Windows
 - Student Editor
   - Notepad++: npp.7.5.6.Installer.x64.exe, https://notepad-plus-plus.org/ ,20180614
 - Professional Editors
-  - Atom: AtomSetup-x64.exe, Version 1.27.2, 20180614
+  - Atom: AtomSetup-x64.exe, Version 1.27.2, https://atom.io/, 20180614
   - OPTIONAL: Visual Studio Code, https://code.visualstudio.com/
 
 Installing and Personalizing Atom (Optional Settings and Additions)
