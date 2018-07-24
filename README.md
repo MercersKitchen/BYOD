@@ -305,7 +305,7 @@ Program Installation Overview
 - Android Studio (Uses Pure Java, CS30), https://developer.android.com/studio/
   - NOTE: Android Studio's SDK GUI Manager made Processing Installation easier, not necessary as of 20180614
   - When installing SDK, update JDK and Manager for KitKat, Android 4.4 (most legacy that is tested to work)
-    - Installing all OS Options will use a lot of Hard Drive Space (>200Gb), be careful about your overall hard drive size 
+    - Installing all OS Options will use a lot of Hard Drive Space (>200Gb), be careful about your overall hard drive size
   - Note: when choosing an Android OS, choose the one on your device, search your device to locate what is installed and updated
 
 Processing Installation
@@ -345,7 +345,7 @@ Other Libraries Exist: Processing.org/reference
 - Google Search these to see if additional websites or texts exist
 - Note: if a text exists, able to Google Search filetype:pdf to see if reading is acceptable before purchasing and supporting the author
 
-Processing-JAVA Mode is now ready for use
+*Processing-JAVA Mode is now ready for use*
 
 **Following Instructions require Android Device for further installation and configuration**
 
