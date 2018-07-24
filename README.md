@@ -251,10 +251,14 @@ See Last Pass for up dated List
 https://lastpass.com/misc_download2.php
 
 Chrome: see above
+
 Firefox: Firefox Installer.exe, https://www.mozilla.org/en-US/firefox/new/, 20140613
+
 Opera: OperaSetup.exe, https://www.opera.com/, 20180613
   - Might be unsupported after 201808
+
 Unknown: mx5.2.3.2000.exe, 20180614
+
 Internet Explorer: installed with Windows
 
 ### WYSIWYG (What You See is What You Get) Text Editors
