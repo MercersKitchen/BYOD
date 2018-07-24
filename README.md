@@ -45,6 +45,12 @@ Reminder: machine may need multiple restarts
 CAUTION: Complete the Installation, then update the machine, then register WINDOWS with Product Key
 - OPTION: register windows by phone, see folder for more details
 
+Reminder that changes the "rules" about updates (NOT WINDOWS mandatory updates, or other OS Updates)
+- "Only update individual programs when you have time to test the entire machine"
+- Sometimes an update causes other programs to fail
+- If an entire machine fails, then the most stable versions of all software must be used
+- "Which is the way you had it before. Ensure you have all installation files of your most recent stable version."
+
 ---
 
 ## Additional Details
@@ -320,6 +326,22 @@ Processing-JAVA Mode is now ready for use
 
 **Following Instructions require Android Device for further installation and configuration**
 
+Processing-Android Mode Dependencies and Testing
+- CAUTION: must have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
+  - Double CAUTION: rooting a device has had issues in the past (if you know what rooting is, then you are also aware of the issues)
+- Instructional Website & Text References: http://android.processing.org/
+
+Processing IDE: change Java Mode to Android Mode
+- Once Android Mode selected, follow prompts
+- Download SDK Manually (does not need Android Studio SDK GUI Manager, 20180613)
+- Accept Licenses
+- Verify pathway of installation (record this! you might need it later)
+  - Example: C:\Users\MercersKitchen\Documents\Processing\android\sdk\extras\google\usb_driver
+  - Example: C:\Users\Mark\AppData\Local\Android\sdk
+- Note this will take a while, be prepared
+- Select Java Mode again: will need to restart machine and Processing-Java is better to start from here
+- Close Processing IDE
+
 Android Driver Installations: doubleClick to install, may need to Unzip first
 - Install Samsung Driver first, then Universal Driver (worked as of 20180615)
   - Optional: only install the Universal Driver until you have a Samsung device
@@ -343,23 +365,18 @@ Android Driver Installations: doubleClick to install, may need to Unzip first
   - After device reassembles itself, popup asking permission for this computer to debug via USB
   - Click YES
 
-Processing-Android Mode Dependencies and Testing
-- CAUTION: must have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
-  - Double CAUTION: rooting a device has had issues in the past (if you know what rooting is, then you are also aware of the issues)
-- Instructional Website & Text References: http://android.processing.org/
+Restart Entire Machine, ensures all pathways are correct (especially environmental pathways)
+- Troubleshooting Example: Set Path to Android SDK Path (in C:\Users\Mark\AppData\Local\Android\sdk)
 
-Processing IDE: change Java Mode to Android Mode
-- Follow prompts
-- Download SDK Manually (does not need Android Studio SDK GUI Manager 20180613)
-- Accept Licenses
-- Verify pathway of installation (record this! you might need it later)
-  - Example: C:\Users\MercersKitchen\Documents\Processing\android\sdk\extras\google\usb_driver
-- Note this will take a while, be prepared
-
-CONTINUE HERE
+Restart Processing-Android (reselect Processing-Android)
+- Normal Processing IDE Boot: no prompts for downloads, etc. (besides optional updates)
+- Change AVD API to that of device (i.e. current Android OS of the device)
+- Change Target Phone device
+- Processing-Android ready to side-load to device
 
 Download and Run Processing-Android "Hello World" Sketch (Sketches are name for Processing coded programs, from Processing)
 - See AcerHelloWorld
+- Run on Device (but not on Emulator)
 - Remember about device permission (not activated on this Hello World Sketch, but might be needed in future)
 - Ensure device is connected and you can see it in Processing-Android Menu: Sketch
 - Run the Sketch on the Device
