@@ -297,6 +297,7 @@ Additional Packages and themes: https://atom.io/packages
 
 ### Java: Processing-Java, Processing-Android, and Pure Java
 **CAUTION: this installation has a few steps and should be done last**
+  - used on all machines
 
 Note: JDK Version from Oracle should be already installed or verified, reference above
 
