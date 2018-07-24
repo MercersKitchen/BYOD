@@ -317,3 +317,5 @@ List of Ideas
 - Ubuntu Installation (Connections to Cisco Academy Courses)
 - RPI setup and Rasbian Installation (including WiFi Configuration)
 - Completing a Dual Boot
+- Separate List of Programs (currently all programs have usage in different courses on a developers machine)
+  - For Example: testing installations of new programs occur in a virtual machine
