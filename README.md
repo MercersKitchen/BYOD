@@ -73,7 +73,6 @@ Finding information about Drivers
 - Alternative
   - RightClick on ICON with !
   - See Troubleshoot, Google Full Driver Name
--
 
 Important URLs used to Research Information
 - https://www.pcilookup.com
@@ -188,7 +187,7 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 - Add Cisco Packet Tracer 7.1 FAQs.pdf
   - Add to My Documents / Cisco
 
-###Video Player: vlc-3.0.3-win64.exe, 20180613
+### Video Player: vlc-3.0.3-win64.exe, 20180613
 - Using VLC: https://lifehacker.com/the-best-hidden-features-of-vlc-1654434241
 
 ### PuTTY: putty-64bit-0.70-installer.msi, 20180623
@@ -237,11 +236,15 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 
 ### WYSIWYG (What You See is What You Get) Text Editors
 - Test these with Hello World Program in Chrome, see index.html
-- Notepad++: npp.7.5.6.Installer.x64.exe, https://notepad-plus-plus.org/ ,20180614
-- Atom: AtomSetup-x64.exe, Version 1.27.2, 20180614
+- Student Editor
+  - Notepad++: npp.7.5.6.Installer.x64.exe, https://notepad-plus-plus.org/ ,20180614
+- Professional Editors
+  - Atom: AtomSetup-x64.exe, Version 1.27.2, 20180614
+  - OPTIONAL: Visual Studio Code, https://code.visualstudio.com/
 
 Installing and Personalizing Atom (Optional Settings and Additions)
-- Why Atom: open multiple projects in one window
+- Completely customizable ... you create your environment not based on proprietary choices
+- "Why Atom": open multiple projects in one window
 - See the Flight Manual: http://flight-manual.atom.io/
   - Set-up Section is good, use this with Video 1 below
   - Note: Tree View has parent, child, and sub notes
@@ -252,11 +255,20 @@ Installing and Personalizing Atom (Optional Settings and Additions)
   - For further ideas see: https://help.github.com/articles/authorizing-oauth-apps/
 
 Suggestions for packages
-- Already installed is Built In Plug-In for Spelling
-  - adds suggestions for variables found in coding, nice feature
--
+- Already installed: Built In Plug-In for Spelling
+  - adds suggestions for variables already spelt in code, nice feature
+- Git-plus: allows you to use Git in Atom without the (CMD) Terminal or GitHub Desktop
+- Navigating in Atom made easier
+  - File-icons
+  - Mini-map
+- Atom-beautify: for formatting
+- Linter: finds common code errors, for example unclosed HTML Tags
+- Colour-picker: adds colour picker to Atom, similar to Processing-JAVA IDE
+  - Do Not need to use Google for Hexadecimal Colour Searching
 
-Additional Packages and themes for Atom: https://atom.io/packages
+```
+
+Additional Packages and themes: https://atom.io/packages
 
 ### 7 Zip: 7z1805-x64.exe, www.7-zip.com, 20180614
 
@@ -289,6 +301,8 @@ Search Engines: Google's V8, Bing (for research and to find updates)
 
 ## Installation Instructions for a WAMP Server
 See Folder and Notes from Installation
+
+**Complete this after testing WAMP Server**
 
 ---
 # Previous Versions Notes Not Deleted Yet
