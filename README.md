@@ -417,7 +417,7 @@ java HelloWorld
 
 ---
 
-Additional Program Website List
+Additional Software and Website List
 - www.ubuntu.com
 - www.canonical.com: for Ubuntu software updates
 - SlackSetup.exe for messaging and Social Networking
