@@ -241,6 +241,22 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
   - https://www.ccleaner.com/recuva
 - Additional SD Recovery, not tested yet: DiskDigger, Version 1.18.17.2417, https://diskdigger.org/
 
+### 7 Zip: 7z1805-x64.exe, www.7-zip.com, 20180614
+
+### GitHub Desktop: GitHubDesktopSetup.exe, 20180614
+
+### Other Browsers for Testing CSS files
+
+See Last Pass for up dated List
+https://lastpass.com/misc_download2.php
+
+Chrome: see above
+Firefox: Firefox Installer.exe, https://www.mozilla.org/en-US/firefox/new/, 20140613
+Opera: OperaSetup.exe, https://www.opera.com/, 20180613
+  - Might be unsupported after 201808
+Unknown: mx5.2.3.2000.exe, 20180614
+Internet Explorer: installed with Windows
+
 ### WYSIWYG (What You See is What You Get) Text Editors
 - Test these with Hello World Program in Chrome, see index.html
 - Student Editor
@@ -272,6 +288,8 @@ Suggestions for packages
 - Linter: finds common code errors, for example unclosed HTML Tags
 - Colour-picker: adds colour picker to Atom, similar to Processing-JAVA IDE
   - Do Not need to use Google for Hexadecimal Colour Searching
+
+Additional Packages and themes: https://atom.io/packages
 
 ### Java: Processing-Java, Processing-Android, and Pure Java
 **CAUTION: this installation has a few steps and should be done last**
@@ -391,28 +409,6 @@ Final Test ... Finally: Testing Pure JAVA (Windows 7 or Windows 10)
 javac HelloWorld.java
 java HelloWorld
 ```
-
-```
-
-Additional Packages and themes: https://atom.io/packages
-
-### 7 Zip: 7z1805-x64.exe, www.7-zip.com, 20180614
-
-### GitHub Desktop: GitHubDesktopSetup.exe, 20180614
-
----
-
-### Other Browsers for Testing CSS files
-
-See Last Pass for up dated List
-https://lastpass.com/misc_download2.php
-
-Chrome: see above
-Firefox: Firefox Installer.exe, https://www.mozilla.org/en-US/firefox/new/, 20140613
-Opera: OperaSetup.exe, https://www.opera.com/, 20180613
-  - Might be unsupported after 201808
-Unknown: mx5.2.3.2000.exe, 20180614
-Internet Explorer: installed with Windows
 
 ---
 
