@@ -28,13 +28,13 @@ Also try KeePass
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
-. Install WINDOWS
-. Update Drives (Especially All Internet Connection Drivers)
+3. Install WINDOWS
+4. Update Drives (Especially All Internet Connection Drivers)
   - Note: Display driver can be an issues; also manually install additional issues as needed
-. Windows Update (repeat as necessary)
+5. Ensure all BIOS Settings Correct
+6. Windows Update (repeat as necessary)
   - Common Error: time settings
   - May need to delete Update Contents, see note below
-. Ensure all BIOS Settings Correct
 . Windows Settings and Tasks
 . Install additional programs as needed (copy all .exe files to Downloads Folder first using USB)
   - See Program List .txt
@@ -122,7 +122,9 @@ Important URLs used to Research Information
 
 ---
 
-### Deleting Windows Update Contents
+### Run Windows Update
+
+**Troubleshooting: Deleting Windows Update Contents**
 - "Stop the Services first, then delete, then restart services"
 - GUI Version: C Drive / Windows / Softwaredistribution
   - Use this to visually verify CMD Commands Successful
@@ -137,7 +139,8 @@ net stop wuauserv
 net start buts
 net start wuauserv
 ```
-- ReRun Windows Update
+
+ReRun Windows Update
 
 ---
 
