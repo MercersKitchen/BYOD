@@ -30,14 +30,14 @@ Also try KeePass
 2. Create USB Installation Key
 3. Install WINDOWS
 4. Update Drives (Especially All Internet Connection Drivers)
-  - Note: Display driver can be an issues; also manually install additional issues as needed
+   - Note: Display driver can be an issues; also manually install additional issues as needed
 5. Ensure all BIOS Settings Correct
 6. Windows Update (repeat as necessary)
-  - Common Error: time settings
-  - May need to delete Update Contents, see note below
+   - Common Error: time settings
+   - May need to delete Update Contents, see note below
 7. Windows Settings and Tasks
 8. Install additional software as needed (copy all .exe files to Downloads Folder first using USB)
-  - May need to create a Software Installation Folder and USB Key
+   - May need to create a Software Installation Folder and USB Key
 
 Reminder: machine may need multiple restarts
 
