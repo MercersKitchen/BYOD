@@ -304,7 +304,8 @@ Program Installation Overview
 - Processing: processing-3.3.7-windows64.zip, https://processing.org/download/, 20180614
 - Android Studio (Uses Pure Java, CS30), https://developer.android.com/studio/
   - NOTE: Android Studio's SDK GUI Manager made Processing Installation easier, not necessary as of 20180614
-  - When installing SDK update JDK and Manager for KitKat, Android 4.4 (most legacy that is tested to work)
+  - When installing SDK, update JDK and Manager for KitKat, Android 4.4 (most legacy that is tested to work)
+    - Installing all OS Options will use a lot of Hard Drive Space (>200Gb), be careful about your overall hard drive size 
   - Note: when choosing an Android OS, choose the one on your device, search your device to locate what is installed and updated
 
 Processing Installation
