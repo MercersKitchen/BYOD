@@ -243,7 +243,7 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 
 ### 7 Zip: 7z1805-x64.exe, www.7-zip.com, 20180614
 
-### GitHub Desktop: GitHubDesktopSetup.exe, 20180614
+### GitHub Desktop: GitHubDesktopSetup.exe, https://desktop.github.com/, 20180614
 
 ### Other Browsers for Testing CSS files
 
