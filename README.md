@@ -429,10 +429,12 @@ Search Engines: Google's V8, Bing (for research and to find updates)
 
 ## Installation Instructions for a WAMP Server
 See Folder and Notes from Installation
+- Not used on all machines unless writing PHP, etc.
 
 **Complete this after testing WAMP Server**
 
 ---
+
 # Previous Software Notes Not Deleted Yet
 
 ### GitHub Classroom
