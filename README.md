@@ -350,7 +350,7 @@ Other Libraries Exist: Processing.org/reference
 **Following Instructions require Android Device for further installation and configuration**
 
 Processing-Android Mode Dependencies and Testing
-- CAUTION: must have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
+- MUST have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
   - Double CAUTION: rooting a device has had issues in the past (if you know what rooting is, then you are also aware of the issues)
 - Instructional Website & Text References: http://android.processing.org/
 
@@ -432,7 +432,16 @@ See Folder and Notes from Installation
 **Complete this after testing WAMP Server**
 
 ---
-# Previous Versions Notes Not Deleted Yet
+# Previous Software Notes Not Deleted Yet
+
+### GitHub Classroom
+- Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
+- Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
+- Install GitHub Desktop
+
+---
+
+# Additional Troubleshooting Notes
 
 ### TCPIP Stack Reset, Windows 7
 ```
@@ -447,16 +456,11 @@ netsh winsock reset
 
 ---
 
-### GitHub Classroom
-- Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
-- Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
-- Install GitHub Desktop
-
 # Future Ideas to Include
 List of Ideas
 - Using Older machines and "lighter OS"
 - Ubuntu Installation (Connections to Cisco Academy Courses)
-- RPI setup and Rasbian Installation (including WiFi Configuration)
+- RPI setup and Raspbian Installation (including WiFi Configuration)
 - Completing a Dual Boot
 - Separate List of Programs (currently all programs have usage in different courses on a developers machine)
   - For Example: testing installations of new programs occur in a virtual machine
