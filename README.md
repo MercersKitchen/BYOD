@@ -435,6 +435,12 @@ See Folder and Notes from Installation
 
 **Complete this after testing WAMP Server**
 
+Incomplete Instructions
+- WAMPServer: wampserver3.1.0_x64.exe
+- http://www.wampserver.com/en/
+- Composer for Windows: Composer-Setup.exe
+- Extra Files: cacert.pem
+
 ---
 
 # Previous Software Notes Not Deleted Yet
@@ -443,6 +449,20 @@ See Folder and Notes from Installation
 - Must install Atom (AtomSetup-x64.exe) First (or Notepad++, etc.)
 - Install Git-2.16.2-64-bit.exe (enable Atom or WYSIWYG choice)
 - Install GitHub Desktop
+
+### Robotics Software and Additional Notes
+Fritzing: http://fritzing.org/home/
+- Run the .exe
+- Allow to run update in the background, will be notified
+- Allow to do a file clean
+- Allow to do a new parts update
+
+Installation for VEX
+Install VEX Robot C
+Install this one: VEX Driver Installer 64-bit
+Upgrade & Repair, will case Error 1316 (known and OK)
+VEXNet Firmware Upgrade Utility: setup
+VEXNet Key Firmware Upgrade Utility: setup
 
 ---
 
