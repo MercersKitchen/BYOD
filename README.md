@@ -179,8 +179,6 @@ Note: F10 \ BIOS \ Security \ System Security \ Enable VT-X
 
 Organize by computer
 
-
-
 ---
 
 ### Clock settings
@@ -216,6 +214,7 @@ ReRun Windows Update
 ---
 
 ### Windows Settings and Tasks, additional items
+General Reminders
 - WINDOWS Defender: change settings in Options, Update and Scan
 - Deal with all messages (firewall, security, backup, etc.)
 - Folder Options
@@ -223,6 +222,13 @@ ReRun Windows Update
   - ClickOff "Hide all Hidden Folders" (Want to see these)
   - Ensure "Pathways" are able to be shown
 - Check that the HDD is empty. If not, select the partitions, delete the partitions, and continue as necessary
+
+OPTIONAL: Turning off password expiry
+- Go into the shared network storage (example: \\edmnas)
+  - Either go to start, open up run, and type in \\edmnas
+  - Or go into the address bar in File Explorer and type in \\edmnas
+- In the Drivers folder, right click 'Set_PasswordExpire_False.bat' and run as administrator
+  - This batch file only runs one command that disables the password expiry for all user accounts. It only works if run as administrator
 
 ---
 
