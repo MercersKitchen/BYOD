@@ -43,7 +43,7 @@ Also try KeePass
   - If BIOS Locked ...
     - Reset with "jumper"
     - Spam with ENTER, etc.
-    - Google Model and attempt other methods
+    - Google Model and attempt other methods (reminder: include "solved" or "problem solved" to find posted solutions, not posted problems)
     - If a Laptop:
       - Most Dell Laptops can be unlocked with a master password (online)
       - HP, Lenovo, and Toshiba are much more trouble
