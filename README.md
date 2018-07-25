@@ -66,6 +66,22 @@ Also try KeePass
     - LAN/WLAN switching is disabled
     - **Save changes and Exit**, Reboot into BIOS and Ensure one change is still active (save was successful)
 
+### Data Preparations
+**Note: this needs to be completed**
+
+General Reminders
+- Browser Hard Drive, showing all hidden folders, looking for examples of data
+- Do not work on a computer that is not yours unless a contract is signed, pre-agreement about lost data
+- Data that is not yours: ensure owner is aware of types of data that can be stored and that data can be lost
+
+General List of Data Types, where to find it, and what to do
+1. Browser Files
+  - Ensure all bookmarks and other data is saved to another hard drive or cloud services
+  - navigate to Browser or download data from within the browswer
+2. EMail
+3. Videos and Images
+4. My Document Files
+
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
