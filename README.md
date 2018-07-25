@@ -11,6 +11,11 @@ Power Reminders
    - Change to High Power (Hard Drive Never sleeps, turn monitor off in 1 minute)
    - Lid Button "Does Nothing" (able to close lid if needed)
    - Remember to change Power setting Back to Balanced Power
+3. Pre OS Installation Task List
+   - Search for WiFi, LAN, Internet Drivers (or have alternate computer to search after installation)
+   - Check BIOS to ensure USB is in Bootable Sequence
+   - Find USB-1 if possible, might be a guess and check during initial installation
+
 
 Download Installation and Executable File Checksums Reminders
 
@@ -29,6 +34,7 @@ Also try KeePass
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
 3. Install WINDOWS
+   - Note: click off WIN Tool Addition
 4. Update Drives (Especially All Internet Connection Drivers)
    - Note: Display driver can be an issues; also manually install additional issues as needed
 5. Ensure all BIOS Settings Correct
