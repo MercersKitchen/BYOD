@@ -138,7 +138,7 @@ Important URLs used to Research Information
 
 ### BIOS Settings
 
-General Reminders
+General Reminders (Note: see specific machine models for BIOS UI Instructions)
 - Record BIOS Password
 
 - Disk configuration set to AHCI or RAID (not IDE)
