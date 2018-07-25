@@ -40,6 +40,31 @@ Also try KeePass
   - Optional: read and evaluate total hours on hard drive, should a new one be used instead
 - Inspect Optical Drive (and other drives): does it open and close
 - **Last Step before Reinstalling OS**: Boot into BIOS (F10, F2, F1, Del, or Esc since every manufacturer is different)
+  - If BIOS Locked ...
+    - Reset with "jumper"
+    - Spam with ENTER, etc.
+    - Google Model and attempt other methods
+    - If a Laptop:
+      - Most Dell Laptops can be unlocked with a master password (online)
+      - HP, Lenovo, and Toshiba are much more trouble
+  - Reset BIOS to factory defaults (final BIOS changes are to be made below after defaults reset)
+  - Check system information for correct amount of RAM (checked against inspected RAM, noted above)
+  - Check System Information for a serial number or date next to the battery, record this
+    - Preliminary check to make sure the battery is detected. We still don't know if the battery holds charge.
+    - Additional Software and Drivers to monitor battery health
+  - Update the Date and Time (incorrect date and time indicates CMOS Battery issues)
+  - Check for an Asset Tag or Service Tag indicating where it came from (may indicate theft issues)
+  - Record Manufacture Asset Service Tags
+  - Final BIOS Changes (remember to save changes and exit)
+    - Disk configuration set to AHCI or RAID (not IDE)
+    - Fast Boot is enabled
+    - PXE/Network Boot is enabled
+    - UEFI is disabled
+    - NumLock on at Boot is enabled
+    - LAN (Ethernet) is enabled
+    - Embedded WLAN (wireless) is enabled
+    - LAN/WLAN switching is disabled
+    - **Save changes and Exit**, Reboot into BIOS and Ensure one change is still active (save was successful)
 
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
