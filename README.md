@@ -39,6 +39,7 @@ Also try KeePass
 - Inspect Hard Drive
   - Optional: read and evaluate total hours on hard drive, should a new one be used instead
 - Inspect Optical Drive (and other drives): does it open and close
+- **Last Step before Reinstalling OS**: Boot into BIOS (F10, F2, F1, Del, or Esc since every manufacturer is different)
 
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
