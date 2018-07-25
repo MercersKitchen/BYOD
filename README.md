@@ -75,9 +75,10 @@ General Reminders
 - Data that is not yours: ensure owner is aware of types of data that can be stored and that data can be lost
 
 General List of Data Types, where to find it, and what to do
-1. Browser Files
+1. Browser Files and Passwords
   - Ensure all bookmarks and other data is saved to another hard drive or cloud services
-  - navigate to Browser or download data from within the browswer
+  - Navigate to Browser or download bookmark data from within the browswer
+  - Browsers save passwords and these will be lost if not downloaded or "taken off the machine"
 2. EMail
 3. Videos and Images
 4. My Document Files
