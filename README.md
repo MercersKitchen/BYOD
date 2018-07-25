@@ -141,6 +141,16 @@ Important URLs used to Research Information
 General Reminders
 - Record BIOS Password
 
+- Disk configuration set to AHCI or RAID (not IDE)
+- Fast Boot is enabled
+- PXE/Network Boot is enabled
+- UEFI is disabled
+- NumLock on at Boot is enabled
+- LAN (Ethernet) is enabled
+- Embedded WLAN (wireless) is enabled
+- LAN/WLAN switching is disabled
+- **Save changes and Exit**, Reboot into BIOS and Ensure one change is still active (save was successful)
+
 Random Notes
 - Check Memory and System with Tools
 - Change Clock Settings, if necessary
