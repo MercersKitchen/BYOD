@@ -58,7 +58,7 @@ Also try KeePass
   - Final BIOS Changes (remember to save changes and exit)
     - Disk configuration set to AHCI or RAID (not IDE)
     - Fast Boot is enabled
-    - PXE/Network Boot is enabled
+    - PXE/Network Boot is disabled, for security (if Network Boot being used, F12, otherwise should be enabled)
     - UEFI is disabled
     - NumLock on at Boot is enabled
     - LAN (Ethernet) is enabled
@@ -71,6 +71,8 @@ Also try KeePass
 2. Create USB Installation Key
 3. Install WINDOWS
    - Note: click off WIN Tool Addition
+   - English (United States) and US keyboard is fine
+   - Location should be Specific for Internet Rules and Configuration
 4. Update Drives (Especially All Internet Connection Drivers)
    - Note: Display driver can be an issues; also manually install additional issues as needed
 5. Ensure all BIOS Settings Correct
@@ -113,6 +115,10 @@ Reminder that changes the "rules" about updates (NOT WINDOWS mandatory updates, 
 ---
 
 ### Driver Information and Installation
+For WINDOWS 10: automatically finds drivers depending on how long you wait
+
+For WINDOWS 7
+
 NOTE: Internet Connection Drivers are crucial and must be installed separately
 - Windows Update is safest (and easiest) way to update and install additional drivers
 Finding information about Drivers
@@ -143,7 +149,7 @@ General Reminders (Note: see specific machine models for BIOS UI Instructions)
 
 - Disk configuration set to AHCI or RAID (not IDE)
 - Fast Boot is enabled
-- PXE/Network Boot is enabled
+- PXE/Network Boot is enabled (if Network Boot being used, F12, otherwise should be disabled for security)
 - UEFI is disabled
 - NumLock on at Boot is enabled
 - LAN (Ethernet) is enabled
@@ -216,6 +222,7 @@ ReRun Windows Update
   - Enable Extensions (i.e .exe, for RansomWare Security)
   - ClickOff "Hide all Hidden Folders" (Want to see these)
   - Ensure "Pathways" are able to be shown
+- Check that the HDD is empty. If not, select the partitions, delete the partitions, and continue as necessary
 
 ---
 
