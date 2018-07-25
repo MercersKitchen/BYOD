@@ -30,6 +30,16 @@ For sha-256: notes below with MD5 Program
 For Passwords or Accounts: use LastPass Program or Chrome Extension;
 Also try KeePass
 
+### Physically Preparing a Machine
+- Inspect all ports, etc. for physical damage
+- Dealing with dust: "blow out the dust" outside, clear dust from grates, fans, and heat sinks
+- Inspect internal motherboard, etc. for dust and connections
+- Inspect battery for bulging
+- Inspect RAM: record total RAM written, should match when OS installed
+- Inspect Hard Drive
+  - Optional: read and evaluate total hours on hard drive, should a new one be used instead
+- Inspect Optical Drive (and other drives): does it open and close
+
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
@@ -101,12 +111,16 @@ Important URLs used to Research Information
 ---
 
 ### BIOS Settings
+
+General Reminders
+- Record BIOS Password
+
+Random Notes
 - Check Memory and System with Tools
 - Change Clock Settings, if necessary
 - If Hard Drive can only be used in this one machine, enable Automatic Drive Lock function that uses BIOS password
   - Otherwise do not enable any drive locks
 - Boot Options: not SD or Floppy (some "camera" .exe viruses and no floppies are used)
-- Enable VT-X, Virtual Technology, in BIOS
 - Administrator Settings?
 - Enable audio alerts during boot
 - Enable NumPad
@@ -117,6 +131,13 @@ Important URLs used to Research Information
 - Change Region and Language
 - Computer Name in System Properties
 - Change Device Installation Settings for Drivers, to recommended
+
+Virtual Technology
+Note: F10 \ BIOS \ Security \ System Security \ Enable VT-X
+
+Organize by computer
+
+
 
 ---
 
@@ -145,6 +166,9 @@ net start buts
 net start wuauserv
 ```
 
+**Troubleshooting: TPM Enabled, might cause issues with keyboards, etc.**
+- Turn this off
+
 ReRun Windows Update
 
 ---
@@ -155,6 +179,7 @@ ReRun Windows Update
 - Folder Options
   - Enable Extensions (i.e .exe, for RansomWare Security)
   - ClickOff "Hide all Hidden Folders" (Want to see these)
+  - Ensure "Pathways" are able to be shown
 
 ---
 
@@ -219,6 +244,7 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 
 ### Wire Shark: Wireshark-win64-2.6.1.exe, 20180614
 - https://www.wireshark.org/#download
+- Disable System Tray install at boot
 - Install USB Package
 - Other packages are available, install these if you want to test them
 
