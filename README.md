@@ -146,6 +146,9 @@ Important URLs used to Research Information
 
 General Reminders (Note: see specific machine models for BIOS UI Instructions)
 - Record BIOS Password
+- Record if the Drives have been locked, and how
+  - CAUTION: often this cannot be undone
+  - Sometimes this needs a password
 
 - Disk configuration set to AHCI or RAID (not IDE)
 - Fast Boot is enabled
