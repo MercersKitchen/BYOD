@@ -1,4 +1,4 @@
-# BYOD
+# BYOD: Bring Your Own Computer
 Computer Setup: Program Information and Settings
 
 Power Reminders
@@ -30,7 +30,7 @@ For sha-256: notes below with MD5 Program
 For Passwords or Accounts: use LastPass Program or Chrome Extension;
 Also try KeePass
 
-### Physically Preparing a Machine
+### Physically Checking a Machine, for install of OS or general maintence
 - Inspect all ports, etc. for physical damage
 - Dealing with dust: "blow out the dust" outside, clear dust from grates, fans, and heat sinks
 - Inspect internal motherboard, etc. for dust and connections
@@ -66,7 +66,30 @@ Also try KeePass
     - LAN/WLAN switching is disabled
     - **Save changes and Exit**, Reboot into BIOS and Ensure one change is still active (save was successful)
 
-### Steps for Single Boot Windows 7 Installation ... Additional Details Below
+### Data Preparations, for regular backup and health or installation of OS
+**Note: this needs to be completed**
+
+General Reminders
+- Browse Hard Drive, showing all hidden folders, looking for examples of data
+  - Find what data is stored
+  - Create a tree of where data should be
+  - Create a backup of data
+- Do not work on a computer that is not yours unless a contract is signed, pre-agreement about lost data
+- Data that is not yours: ensure owner is aware of types of data that can be stored and that data can be lost
+
+General List of Data Types, where to find it, and what to do
+1. Browser Files and Passwords
+  - Ensure all bookmarks and other data is saved to another hard drive or cloud services
+  - Navigate to Browser or download bookmark data from within the browswer
+  - Browsers save passwords and these will be lost if not downloaded or "taken off the machine"
+2. EMail: passwords and docs saved outside email server (pop or imap), are any cloud services used
+3. Videos and Music Files: in devices or computer (check separate folders)
+4. Image Files: highly important, often only copies and sometimes on other devices
+4. My Document Files: almost needs the owner present to backup files
+   - Note: some files need special programs to run that might be installed (see Downloads) but are often already installed in the C-Drive.
+   - Must check both files, specific software, habits of user, and the state of the hard drive
+
+### Summary Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
 3. Install WINDOWS
@@ -94,6 +117,7 @@ Reminder that changes the "rules" about updates (NOT WINDOWS mandatory updates, 
 - If an entire machine fails, then the most stable versions of all software must be used
 - "Which is the way you had it before. Ensure you have all installation files of your most recent stable version."
 
+### Summary Steps for Windows 10, similar to Windows 7
 ---
 
 ## Additional Details
