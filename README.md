@@ -16,7 +16,6 @@ Power Reminders
    - Check BIOS to ensure USB is in Bootable Sequence
    - Find USB-1 if possible, might be a guess and check during initial installation
 
-
 Download Installation and Executable File Checksums Reminders
 
 For MD5: see Install+WinMD5.pdf
@@ -30,7 +29,7 @@ For sha-256: notes below with MD5 Program
 For Passwords or Accounts: use LastPass Program or Chrome Extension;
 Also try KeePass
 
-### Physically Checking a Machine, for install of OS or general maintence
+### Physically Checking a Machine, for install of OS or general maintenance
 - Inspect all ports, etc. for physical damage
 - Dealing with dust: "blow out the dust" outside, clear dust from grates, fans, and heat sinks
 - Inspect internal motherboard, etc. for dust and connections
@@ -38,7 +37,17 @@ Also try KeePass
 - Inspect RAM: record total RAM written, should match when OS installed
 - Inspect Hard Drive
   - Optional: read and evaluate total hours on hard drive, should a new one be used instead
+  - Indicators HDD is starting to fail, in Task Manager (CTRL-ALT-DEL)
+    - Performance Tab, disk usage at 99%
+    - Read and Write speeds occasionally < 5 MB/s, but disk usage very high
+    - Processes Tab, disk usage at 99% and total processes not using more than 5 MB/s
+    - Disk Usage idles to < 10% after restarting, then opening something simple, Chrome, spikes the disk usage to 99%
 - Inspect Optical Drive (and other drives): does it open and close
+- Optional Test: Power On
+  - Ensure can see wireless or LAN connection and will connect to outside URL
+  - Check System Tray for battery life, plugged in if adaptor connected, and is charging
+  - Unplug power cord for a 1 minute to ensure it holds a small charge
+  - Install and run HP Battery Check or similar tool for your specific machine
 - **Last Step before Reinstalling OS**: Boot into BIOS (F10, F2, F1, Del, or Esc since every manufacturer is different)
   - If BIOS Locked ...
     - Reset with "jumper"
@@ -163,13 +172,14 @@ General Troubleshooting Guide
 - If the warning does not go away after a restart...Google [problem] & "solved"
 - For any strange Hardware IDs, like HPQ0004, google the ID and look up what it is
   - ex. HPQ0004 is the HP accelerometer/hard drive protection driver
+- Remember to reopen the Device Manager to check removal of warnings after installation
 
 NOTE: Internet Connection Drivers are crucial and must be installed separately
 - Windows Update is safest (and easiest) way to update and install additional drivers
 Finding information about Drivers
 - Use Windows Device Manager (Windows 7: Control Panel / Hardware and Sound / Devices and Printers)
 - Device Manager / Properties for Component / Details / Hardware IDs
-- Alternative 
+- Alternative
   - RightClick on ICON with !
   - See Troubleshoot, Google Full Driver Name
 
@@ -184,7 +194,7 @@ Example Using PCI Database, https://www.pcilookup.com
 - Copy Driver to "Downloads Folder" of machine
 - Double Click to install (may need restart)
 
-Good Homework: find the drivers and additional software to make your machine run best 
+Good Homework: find the drivers and additional software to make your machine run best
 ---
 
 ### BIOS Settings
@@ -270,12 +280,19 @@ General Reminders
   - Ensure "Pathways" are able to be shown
 - Check that the HDD is empty. If not, select the partitions, delete the partitions, and continue as necessary
 
+Quality of Life Changes
+- Hide Cortana
+- Pin Chrome to taskbar
+- Mute or turn down the system volume
+- Clear the Chrome browser history if you used it
+- Optional: Hide Task View Button
+- Optional: Unpin Microsoft Edge and the Windows Store from taskbar
+
 OPTIONAL: Turning off password expiry
-- Go into the shared network storage (example: \\edmnas)
-  - Either go to start, open up run, and type in \\edmnas
-  - Or go into the address bar in File Explorer and type in \\edmnas
-- In the Drivers folder, right click 'Set_PasswordExpire_False.bat' and run as administrator
-  - This batch file only runs one command that disables the password expiry for all user accounts. It only works if run as administrator
+- Open a CMD in Administrator Mode, run following command
+```
+wmic path win32_useraccount set passwordexpires=false
+```
 
 ---
 
