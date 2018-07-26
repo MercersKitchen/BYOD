@@ -30,7 +30,7 @@ For sha-256: notes below with MD5 Program
 For Passwords or Accounts: use LastPass Program or Chrome Extension;
 Also try KeePass
 
-### Physically Preparing a Machine
+### Physically Checking a Machine, for install of OS or general maintence
 - Inspect all ports, etc. for physical damage
 - Dealing with dust: "blow out the dust" outside, clear dust from grates, fans, and heat sinks
 - Inspect internal motherboard, etc. for dust and connections
@@ -66,11 +66,14 @@ Also try KeePass
     - LAN/WLAN switching is disabled
     - **Save changes and Exit**, Reboot into BIOS and Ensure one change is still active (save was successful)
 
-### Data Preparations
+### Data Preparations, for regular backup and health or installation of OS
 **Note: this needs to be completed**
 
 General Reminders
-- Browser Hard Drive, showing all hidden folders, looking for examples of data
+- Browse Hard Drive, showing all hidden folders, looking for examples of data
+  - Find what data is stored
+  - Create a tree of where data should be
+  - Create a backup of data
 - Do not work on a computer that is not yours unless a contract is signed, pre-agreement about lost data
 - Data that is not yours: ensure owner is aware of types of data that can be stored and that data can be lost
 
