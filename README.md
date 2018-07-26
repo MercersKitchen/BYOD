@@ -39,9 +39,9 @@ Also try KeePass
   - Optional: read and evaluate total hours on hard drive, should a new one be used instead
   - Indicators HDD is starting to fail, in Task Manager (CTRL-ALT-DEL)
     - Performance Tab, disk usage at 99%
-    - Read and Write speeds occasionally < 5 MB/s, but disk usage very high
     - Processes Tab, disk usage at 99% and total processes not using more than 5 MB/s
     - Disk Usage idles to < 10% after restarting, then opening something simple, Chrome, spikes the disk usage to 99%
+    - Read and Write speeds occasionally < 5 MB/s, but disk usage very high
 - Inspect Optical Drive (and other drives): does it open and close
 - Optional Test: Power On
   - Ensure can see wireless or LAN connection and will connect to outside URL
