@@ -79,9 +79,12 @@ General List of Data Types, where to find it, and what to do
   - Ensure all bookmarks and other data is saved to another hard drive or cloud services
   - Navigate to Browser or download bookmark data from within the browswer
   - Browsers save passwords and these will be lost if not downloaded or "taken off the machine"
-2. EMail
-3. Videos and Images
-4. My Document Files
+2. EMail: passwords and docs saved outside email server (pop or imap), are any cloud services used
+3. Videos and Music Files: in devices or computer (check separate folders)
+4. Image Files: highly important, often only copies and sometimes on other devices
+4. My Document Files: almost needs the owner present to backup files
+   - Note: some files need special programs to run that might be installed (see Downloads) but are often already installed in the C-Drive.
+   - Must check both files, specific software, habits of user, and the state of the hard drive
 
 ### Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
