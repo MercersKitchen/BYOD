@@ -1,4 +1,4 @@
-# BYOD
+# BYOD: Bring Your Own Computer
 Computer Setup: Program Information and Settings
 
 Power Reminders
@@ -89,7 +89,7 @@ General List of Data Types, where to find it, and what to do
    - Note: some files need special programs to run that might be installed (see Downloads) but are often already installed in the C-Drive.
    - Must check both files, specific software, habits of user, and the state of the hard drive
 
-### Steps for Single Boot Windows 7 Installation ... Additional Details Below
+### Summary Steps for Single Boot Windows 7 Installation ... Additional Details Below
 1. Download ISO Files from Microsoft
 2. Create USB Installation Key
 3. Install WINDOWS
@@ -117,6 +117,7 @@ Reminder that changes the "rules" about updates (NOT WINDOWS mandatory updates, 
 - If an entire machine fails, then the most stable versions of all software must be used
 - "Which is the way you had it before. Ensure you have all installation files of your most recent stable version."
 
+### Summary Steps for Windows 10, similar to Windows 7
 ---
 
 ## Additional Details
