@@ -143,27 +143,48 @@ For WINDOWS 10: automatically finds drivers depending on how long you wait
 
 For WINDOWS 7
 
+General Troubleshooting Guide
+- Start Menu / Device Manager (Control Panel)
+- For Warnings, rightClick / Properties / Details / Hardware IDs
+  - Hints:
+  - VEN_#### indicates a Vendor ID (eg. Intel is 8086)
+  - DEV_#### indicates a PCI Device ID
+  - Go to http://pcidatabase.com/ and search up the Device ID to find out exactly what driver is missing
+  - See below for example
+- Drivers that are frequently not detected include:
+  - Intel Management Engine Interface
+  - Intel chipset drivers
+  - Card readers (Ricoh)
+  - Fingerprint sensors (Validity)
+  - Accelerometers/hard drive protection (HP Driveguard, Dell Data Protection)
+- Google for the drivers page on the official website for your brand and model
+  - ex. google HP 8200 drivers, navigate to the Windows 7 64-bit drivers
+- Find the appropriate driver for your device, download and install it ... repeat if necessary
+- If the warning does not go away after a restart...Google [problem] & "solved"
+- For any strange Hardware IDs, like HPQ0004, google the ID and look up what it is
+  - ex. HPQ0004 is the HP accelerometer/hard drive protection driver
+
 NOTE: Internet Connection Drivers are crucial and must be installed separately
 - Windows Update is safest (and easiest) way to update and install additional drivers
 Finding information about Drivers
 - Use Windows Device Manager (Windows 7: Control Panel / Hardware and Sound / Devices and Printers)
 - Device Manager / Properties for Component / Details / Hardware IDs
-- Alternative
+- Alternative 
   - RightClick on ICON with !
   - See Troubleshoot, Google Full Driver Name
 
-Important URLs used to Research Information
-- https://www.pcilookup.com
-  - Details to Use: VEN is vendor, DEV is Developer
-  - Details found in Driver Error Menu or Windows Device Manager (Use Search to Locate folder)
-  - Example Search: https://www.pcilookup.com/?ven=8086&dev=1503&action=submit
-  - Ethernet Controller Driver Missing: VEN 8086, DEV 1503
-  - PCI Lookup will return "82579V Gigabit Network Connection"
-  - Google the description of device, include driver download
-  - Returns: https://downloadcenter.intel.com/download/18713/Intel-Network-Adapter-Driver-for-Windows-7-?product=52963
-  - Copy Driver to "Downloads Folder" of machine
-  - Double Click to install (may need restart)
+Example Using PCI Database, https://www.pcilookup.com
+- Details to Use: VEN is vendor, DEV is Developer
+- Details found in Driver Error Menu or Windows Device Manager (Use Search to Locate folder)
+- Example Search: https://www.pcilookup.com/?ven=8086&dev=1503&action=submit
+- Ethernet Controller Driver Missing: VEN 8086, DEV 1503
+- PCI Lookup will return "82579V Gigabit Network Connection"
+- Google the description of device, include driver download
+- Returns: https://downloadcenter.intel.com/download/18713/Intel-Network-Adapter-Driver-for-Windows-7-?product=52963
+- Copy Driver to "Downloads Folder" of machine
+- Double Click to install (may need restart)
 
+Good Homework: find the drivers and additional software to make your machine run best 
 ---
 
 ### BIOS Settings
@@ -173,7 +194,6 @@ General Reminders (Note: see specific machine models for BIOS UI Instructions)
 - Record if the Drives have been locked, and how
   - CAUTION: often this cannot be undone
   - Sometimes this needs a password
-
 - Disk configuration set to AHCI or RAID (not IDE)
 - Fast Boot is enabled
 - PXE/Network Boot is enabled (if Network Boot being used, F12, otherwise should be disabled for security)
