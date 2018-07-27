@@ -114,6 +114,7 @@ General List of Data Types, where to find it, and what to do
 7. Windows Settings and Tasks
 8. Install additional software as needed (copy all .exe files to Downloads Folder first using USB)
    - May need to create a Software Installation Folder and USB Key
+9. Activating Windows with Key
 
 Reminder: machine may need multiple restarts
 
@@ -611,6 +612,18 @@ VEXNet Key Firmware Upgrade Utility: setup
 
 ---
 
+# Activation of WINDOWS
+**Only once everything is installed, working and teseted with Hello World's**
+No additional issues like ...
+- Drivers all installed
+- Machine able to restart
+- No issues like slowness or any battery issues
+
+**Activate Windows**
+
+May need to activate through phone - easy to do but will take some time (15 minutes)
+
+---
 # Additional Troubleshooting Notes
 
 ### TCPIP Stack Reset, Windows 7
