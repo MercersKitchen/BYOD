@@ -30,20 +30,24 @@ For Passwords or Accounts: use LastPass Program or Chrome Extension;
 Also try KeePass
 
 ### Physically Checking a Machine, for install of OS or general maintenance
+- Inspect for "strangeness": broken (missing or wiggling) keys, any physical damage
 - Inspect all ports, etc. for physical damage
 - Dealing with dust: "blow out the dust" outside, clear dust from grates, fans, and heat sinks
 - Inspect internal motherboard, etc. for dust and connections
 - Inspect battery for bulging
 - Inspect RAM: record total RAM written, should match when OS installed
-- Inspect Hard Drive
-  - Optional: read and evaluate total hours on hard drive, should a new one be used instead
-  - Indicators HDD is starting to fail, in Task Manager (CTRL-ALT-DEL)
-    - Performance Tab, disk usage at 99%
-    - Processes Tab, disk usage at 99% and total processes not using more than 5 MB/s
-    - Disk Usage idles to < 10% after restarting, then opening something simple, Chrome, spikes the disk usage to 99%
-    - Read and Write speeds occasionally < 5 MB/s, but disk usage very high
-- Inspect Optical Drive (and other drives): does it open and close
-- Optional Test: Power On
+- Partial Power On Test
+  - Inspect Optical Drive (and other drives): does it open and close
+  - Listen for loud fan ("Turbo Speed" indicated thermostat errors or rare BIOS Fan Setting Error)
+    - Fan Errors are reason for serious concern, do not proceed
+- Full Power On Test
+  - Inspect Hard Drive
+    - Optional: read and evaluate total hours on hard drive, should a new one be used instead
+    - Indicators HDD is starting to fail, in Task Manager (CTRL-ALT-DEL)
+      - Performance Tab, disk usage at 99%
+      - Processes Tab, disk usage at 99% and total processes not using more than 5 MB/s
+      - Disk Usage idles to < 10% after restarting, then opening something simple, Chrome, spikes the disk usage to 99%
+      - Read and Write speeds occasionally < 5 MB/s, but disk usage very high
   - Ensure can see wireless or LAN connection and will connect to outside URL
   - Check System Tray for battery life, plugged in if adaptor connected, and is charging
   - Unplug power cord for a 1 minute to ensure it holds a small charge
@@ -636,6 +640,18 @@ netsh int reset all
 netsh int ip reset
 netsh winsock reset
 ```
+
+## Cleaning the Body, Keyboard, and Screen
+Sticker Ideas (in order)
+1. Remove slowly
+2. Soak with SolvoPlast before using a scrapper
+3. Use Windex or Fantastik to remove sticky residue on the outside body only
+
+Keyboard and Monitor (Follow Exactly, do not spray directly anywhere)
+1. Spray Windex directly on microfiber cleaning cloth
+2. wipe keyboard or screen
+
+**GOAL:** make computer look like new again
 
 ---
 
