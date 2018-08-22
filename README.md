@@ -336,6 +336,7 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 - Install Flash, set to ask (esp. for Cisco Academy)
 - Add LastPass Extension
 - Add Browser Extension Workona (for managing Tabs)
+  https://lifehacker.com/manage-lots-of-browser-tabs-with-this-chrome-extension-1828165025
 - Test by Surfing
 
 ### Packet Tracer for Cisco Academy: Packet Tracer 7.1.1 for Windows 64 bit.exe, 20180613
