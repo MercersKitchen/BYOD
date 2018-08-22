@@ -335,6 +335,7 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 ### Chrome: ChromeSetup.exe, 20180613
 - Install Flash, set to ask (esp. for Cisco Academy)
 - Add LastPass Extension
+- Add Browser Extension Workona (for managing Tabs)
 - Test by Surfing
 
 ### Packet Tracer for Cisco Academy: Packet Tracer 7.1.1 for Windows 64 bit.exe, 20180613
