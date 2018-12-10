@@ -325,8 +325,12 @@ Use these downloads to create a USB Key or a Folder of Executables and notes
 ### Ensure JDK matches PowerTeacher Java Version
 - Currently 8u121, 20180613
 - See Power Teacher (Power School / Progress Module / Click Here to install preferred Java Version)
-- Ensure Environmental Variable (Pathway) is set properly
+- Ensure Environmental Variables (Pathway) is set properly for JDK and JRE
   - CAUTION: no direct error message if typed with error, be careful and check typing twice
+
+For example:
+- C:\Program Files\Java\jdk1.8.0_121\bin
+- C:\Program Files\Java\jre1.8.0_121\bin
 
 ---
 
