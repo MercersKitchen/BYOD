@@ -508,6 +508,11 @@ Other Libraries Exist: Processing.org/reference
 
 **Following Instructions require Android Device for further installation and configuration**
 
+**CAUTION**: Student installation of Processing-Android is being broken by Network
+- UNDER CONSTRUCTION
+- Notes to follow
+
+
 Processing-Android Mode Dependencies and Testing
 - MUST have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
   - Double CAUTION: rooting a device has had issues in the past (if you know what rooting is, then you are also aware of the issues)
