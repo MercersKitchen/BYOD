@@ -520,8 +520,8 @@ Processing IDE: change Java Mode to Android Mode
 - Download SDK Manually (does not need Android Studio SDK GUI Manager, 20180613)
 - Accept Licenses
 - Verify pathway of installation (record this! you might need it later)
-  - Example: C:\Users\MercersKitchen\Documents\Processing\android\sdk\extras\google\usb_driver
-  - Example: C:\Users\Mark\AppData\Local\Android\sdk
+  - Example: ```C:\Users\MercersKitchen\Documents\Processing\android\sdk\extras\google\usb_driver```
+  - Example: ```C:\Users\Mark\AppData\Local\Android\sdk```
 - Note this will take a while, be prepared
 - Select Java Mode again: will need to restart machine and Processing-Java is better to start from here
 - Close Processing IDE
