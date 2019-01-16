@@ -508,10 +508,9 @@ Other Libraries Exist: Processing.org/reference
 
 **Following Instructions require Android Device for further installation and configuration**
 
-**CAUTION**: Student installation of Processing-Android is being broken by Network
-- UNDER CONSTRUCTION
-- Notes to follow
-
+**CAUTION**: Student installation of Processing-Android is being broken by "School's Network"
+- Possible Reason: part of Processing-IDE is being installed to the C-Drive, other part is being installed to a server drive
+- Working Solution: Only use non-school computer, everything installs to C-Drive
 
 Processing-Android Mode Dependencies and Testing
 - MUST have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
@@ -602,6 +601,13 @@ Final Test ... Finally: Testing Pure JAVA (Windows 7 or Windows 10)
 javac HelloWorld.java
 java HelloWorld
 ```
+
+---
+
+Exporting Processing-JAVA or ANDROID Programs as stand-a-lone executables
+- WINDOWS will work on non-school computer (everything installed to C-Drive), tested 20180613
+- Linux will work on non-school computer (everything installed to C-Drive), tested 20180613
+- MAC  will work on non-school computer (everything installed to C-Drive), tested 20180613
 
 ---
 
