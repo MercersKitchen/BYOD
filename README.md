@@ -538,7 +538,7 @@ Android Driver Installations: doubleClick to install, may need to Unzip first
     - Remember to be patient
   - Caution: Windows 7 Only
     - Windows "doesn't believe" this is a safe driver, doesn't want a virus; these steps used successfully 20180615
-    - Open "Devices and Printers" (Windows 7)
+    - Open "Devices and Printers" (Windows 7), in Control Panel / Devices and Printers
       - Ensure device is plugged in and USB Debugging is enabled
     - Under "Device Properties", navigate to where driver software can be loaded/changed/seen
     - Click "Update Driver"
