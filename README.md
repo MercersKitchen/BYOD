@@ -558,6 +558,8 @@ Restart Entire Machine, ensures all pathways are correct (especially environment
 
 Restart Processing-Android (reselect Processing-Android)
 - Normal Processing IDE Boot: no prompts for downloads, etc. (besides optional updates)
+- Plug in device to WINDOWS
+  - Follow Prompts like ```"Always allow USB Debugging From this Computer"```
 - Change AVD API to that of device (i.e. current Android OS of the device)
 - Change Target Phone device
 - Processing-Android ready to side-load to device
@@ -566,10 +568,26 @@ Download and Run Processing-Android "Hello World" Sketch (Sketches are name for 
 - See AcerHelloWorld
 - Run on Device (but not on Emulator)
 - Remember about device permission (not activated on this Hello World Sketch, but might be needed in future)
+  - Android / Sketch Permissions
+  - Click only the ones needed by your code
+  - "Opens Cyber Security Door"
+  - CAUTION: if these are not used, the door is open for inappropriate use from the "wild"
 - Ensure device is connected and you can see it in Processing-Android Menu: Sketch
 - Run the Sketch on the Device
+  - Ensure device does NOT activate screen lock
+  - Remember, be patient, to build project Processing-Android will need to download dependencies from Internet
 - Play with the Touch Screen Program
-- Stop the Sketch and Power-down device to "Dismount the Drive" (currently Task-bar does not have dismount function)
+- To dismount Processing-Android from device, after Sketch is Loaded and working
+  - Stop the Sketch executing
+  - Power-down device to "Dismount the Drive" (currently Task-bar does not have dismount function)
+  - Unplug Device from Computer
+
+Verify Processing-Android Program is installed on device
+- Power-ON Device, not connected to computer
+- Find tile with name of program
+- Double Click the file
+- CAUTION: to stop the program without an EXIT-Button, use the HOME Button and the "Show Running Program", then swipe off
+  - Alternatively: Settings / Apps / [YourProgram] / Force Stop
 
 Final Test ... Finally: Testing Pure JAVA (Windows 7 or Windows 10)
 - See Testing JavaJDK
