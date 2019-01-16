@@ -511,10 +511,12 @@ Other Libraries Exist: Processing.org/reference
 Processing-Android Mode Dependencies and Testing
 - MUST have android device with USB Debugging Enabled (Google Search to enable this on your device, if necessary)
   - Double CAUTION: rooting a device has had issues in the past (if you know what rooting is, then you are also aware of the issues)
+  - To Activate Developer Options: click "Build Number" (Settings / About)
+  - To Activate USB Debugging: see Developer Options / USB Debugging
 - Instructional Website & Text References: http://android.processing.org/
 
 Processing IDE: change Java Mode to Android Mode
-- Once Android Mode selected, follow prompts
+- Once Android Mode selected, follow prompts if Android Mode is not installed (this means install the mode :) )
 - Download SDK Manually (does not need Android Studio SDK GUI Manager, 20180613)
 - Accept Licenses
 - Verify pathway of installation (record this! you might need it later)
@@ -531,21 +533,25 @@ Android Driver Installations: doubleClick to install, may need to Unzip first
   - http://downloadcenter.samsung.com/content/SW/201410/20141017131240597/SAMSUNG_USB_Driver_for_Mobile_Phones.exe?utm_source=gsmmaniak.pl&utm_medium=artykul&utm_campaign=techmaniak.pl
 - For other Android Devices: UniversalAdbDriverSetup.msi (Last Accessed 20180614)
   - Universal ABD Drivers: https://adb.clockworkmod.com/
-  - Caution: Windows "doesn't believe" this is a safe driver, doesn't want a virus; these steps used successfully 20180615
-  - Open "Devices and Printers" (Windows 7)
-    - Ensure device is plugged in and USB Debugging is enabled
-  - Under "Device Properties", navigate to where driver software can be loaded/changed/seen
-  - Click "Update Driver"
-  - Follow the Prompts and navigate menus
-    - "Browse My Computer" and "Let me pick..."
-  - Select device you have
-  - Click on all and load the whole list: clockworkmod
-    - Future Research: read how and why to do this
+    - Double Click
+    - Install for Everyone
+    - Remember to be patient
+  - Caution: Windows 7 Only
+    - Windows "doesn't believe" this is a safe driver, doesn't want a virus; these steps used successfully 20180615
+    - Open "Devices and Printers" (Windows 7)
+      - Ensure device is plugged in and USB Debugging is enabled
+    - Under "Device Properties", navigate to where driver software can be loaded/changed/seen
+    - Click "Update Driver"
+    - Follow the Prompts and navigate menus
+      - "Browse My Computer" and "Let me pick..."
+    - Select device you have
+    - Click on all and load the whole list: clockworkmod
+      - Future Research: read how and why to do this
     - In the left pane: sorted by manufacture, look for clockworkmod
-  - INSTALL IT :)
-    - Now: device will freak out and implode :) (Quote from student who helped write instruction list)
-  - After device reassembles itself, popup asking permission for this computer to debug via USB
-  - Click YES
+    - INSTALL IT :)
+      - Now: device will freak out and implode :) (Quote from student who helped write instruction list)
+    - After device reassembles itself, popup asking permission for this computer to debug via USB
+    - Click YES
 
 Restart Entire Machine, ensures all pathways are correct (especially environmental pathways)
 - Troubleshooting Example: Set Path to Android SDK Path (in C:\Users\Mark\AppData\Local\Android\sdk)
