@@ -404,6 +404,12 @@ For example:
 
 ### GitHub Desktop: GitHubDesktopSetup.exe, https://desktop.github.com/, 20180614
 
+Keyboard shortcuts
+- ctrl-F: opens project repository in WINDOWS Explorer
+- ctrl-A: Opens Project Repository in ATOM
+- ctrl-G: Opens Project Repository in GitHub to view ReadMe.md rendering, file structure, and website
+Other shortcuts are available if needed
+
 ### Other Browsers for Testing CSS files
 
 See Last Pass for up dated List
