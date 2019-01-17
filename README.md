@@ -404,7 +404,7 @@ For example:
 
 ### GitHub Desktop: GitHubDesktopSetup.exe, https://desktop.github.com/, 20180614
 
-Keyboard shortcuts
+Keyboard shortcuts (Reminders in GitHub Desktop)
 - ctrl-F: opens project repository in WINDOWS Explorer
 - ctrl-A: Opens Project Repository in ATOM
 - ctrl-G: Opens Project Repository in GitHub to view ReadMe.md rendering, file structure, and website
