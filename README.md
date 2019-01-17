@@ -341,6 +341,7 @@ For example:
 - Add LastPass Extension
 - Add Browser Extension Workona (for managing Tabs)
   - See: https://lifehacker.com/manage-lots-of-browser-tabs-with-this-chrome-extension-1828165025
+  - See: https://medium.com/@qmorgan/keeping-chrome-light-on-its-feet-3f80ac2a3792
 - Test by Surfing
 
 ### Packet Tracer for Cisco Academy: Packet Tracer 7.1.1 for Windows 64 bit.exe, 20180613
