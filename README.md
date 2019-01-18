@@ -568,11 +568,10 @@ Restart Entire Machine, ensures all pathways are correct (especially environment
 - Troubleshooting Example: Set Path to Android SDK Path (in C:\Users\Mark\AppData\Local\Android\sdk)
 
 Restart Processing-Android (reselect Processing-Android)
-- Normal Processing IDE Boot: no prompts for downloads, etc. (besides optional updates)
 - Plug in device to WINDOWS
   - Follow Prompts like ```"Always allow USB Debugging From this Computer"```
-- Change AVD API to that of device (i.e. current Android OS of the device)
-- Change Target Phone device
+- Normal Processing IDE Boot: no prompts for downloads, etc. (besides optional updates)
+- Verify in ```Android / Device ``` that device is connected
 - Processing-Android ready to side-load to device
 
 Download and Run Processing-Android "Hello World" Sketch (Sketches are name for Processing coded programs, from Processing)
