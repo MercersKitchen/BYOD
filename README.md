@@ -359,8 +359,9 @@ For example:
 
 ### PuttyGen: puttygen.exe, 20180623
 
-### TightVNC: tightvnc-2.8.11-gpl-setup-32bit.msi, 20180623
+### TightVNC
 - https://www.tightvnc.com/download.php
+- tightvnc-2.8.11-gpl-setup-32bit.msi, 20180623
 - CAUTION: install Viewer and Server in specific applications
 - Will Cause Security Issue
 
