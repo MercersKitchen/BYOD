@@ -5,7 +5,7 @@ Advanced Instructions for Reinstallation of Windows: <a href="https://docs.googl
 - WORD Version, see <href="">Repo</a>
 - PDF Version, 20190605, see <href="">Repo</a>
 
-#Anthony's Instructions
+# Anthony's Instructions
 
 Anthony’s Automation for Drivers and Software
 Steps by Anthony
