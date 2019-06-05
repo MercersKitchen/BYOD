@@ -380,7 +380,9 @@ For example:
   - See Readme.txt and License for instructions
   - Drag and Drop usage
   - http://winmd5.com/
-- WINDOWS CMD MD5 Checking
+- WINDOWS CMD MD5 Checking, remember to navigate to the specific pathway
+  - ```c:```, ```cd```
+  - Note: change the FILENAME to the needed filename
   ```
   certutil -hashfile FILENAME  MD5
   ```
@@ -389,6 +391,8 @@ For example:
   md5sum FILENAME
   ```
 - sha-256 Windows: certutil -hashfile FILENAME  sha256
+  - ```c:```, ```cd```
+  - Note: change the FILENAME to the needed filename 
 - sha-256 Linux: sha256sum FILENAME
 
 ### SD Card Programs, 20180614
