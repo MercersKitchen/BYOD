@@ -374,7 +374,7 @@ For example:
 - Install USB Package
 - Other packages are available, install these if you want to test them
 
-### MD5 Checksum File Integrity
+### Checksum File Integrity: MD5 & SHA-256 (WINDOWS & Linux)
 - Program: WinMD5.exe, 20180614
   - No Installation program, is executable
   - See Readme.txt and License for instructions
@@ -386,14 +386,11 @@ For example:
   ```
   certutil -hashfile FILENAME  MD5
   ```
-- Linux MD5 Checking
-  ```
-  md5sum FILENAME
-  ```
-- sha-256 Windows: ```C:\PATHWAY> certutil -hashfile FILENAME  sha256```
+- Linux MD5 Checking: ```X $ md5sum FILENAME```
+- SHA-256 Windows: ```C:\PATHWAY> certutil -hashfile FILENAME  sha256```
   - ```c:```, ```cd```
   - Note: change the FILENAME to the needed filename
-- sha-256 Linux: sha256sum FILENAME
+- SHA-256 Linux: ```X $ sha256sum FILENAME```
 
 ### SD Card Programs, 20180614
 - See Raspberry Pi Website for updated programs, new programs, etc.
