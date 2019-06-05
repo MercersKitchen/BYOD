@@ -390,9 +390,9 @@ For example:
   ```
   md5sum FILENAME
   ```
-- sha-256 Windows: certutil -hashfile FILENAME  sha256
+- sha-256 Windows: ```C:\PATHWAY> certutil -hashfile FILENAME  sha256```
   - ```c:```, ```cd```
-  - Note: change the FILENAME to the needed filename 
+  - Note: change the FILENAME to the needed filename
 - sha-256 Linux: sha256sum FILENAME
 
 ### SD Card Programs, 20180614
