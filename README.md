@@ -713,4 +713,6 @@ List of Ideas
 - Separate List of Programs (currently all programs have usage in different courses on a developers machine)
   - For Example: testing installations of new programs occur in a virtual machine
 
+https://docs.google.com/document/d/1JEimk9RuD1SNG_4g3HX1gruRYhk876r81y6ppanpyQg/edit?pli=1
+
 ---
